@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(56, 56, 56); 
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border: 1.5px solid black;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: green;
+    color:white;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 25px;
+    gap: 5px;
+}
